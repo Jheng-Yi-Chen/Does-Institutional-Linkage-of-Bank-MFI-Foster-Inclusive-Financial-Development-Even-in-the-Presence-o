@@ -1,0 +1,344 @@
+---
+title: Does Institutional Linkage of Bank-MFI Foster Inclusive Financial Development
+  Even in the Presence of MFI Frauds
+author: "Shirley J. Ho, Sushanta K. Mallick"
+date: "December, 2016"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Abstract
+
+Growing reports indicate the presence of frauds in microfinance institutions (MFIs), as it can occur in any organization in countries where there are weak institutions, weak rule of law, and fraudulent behavior of MFI officers for personal gain. While there are increasing calls to launch financial governance of these NGO MFIs, there are concerns as to whether frauds of this nature can damage MFIs¡¦ contributions to the credit market, particularly in the bank-linkage program where the NGO MFIs act as third party intermediary. The purpose of this study was to analyze the collusion decisions faced by MFIs and their impact on the bank-linkage program, which has been offered as a solution to help overcome adverse selection and moral hazard problems in the credit market by harnessing local information via MFIs. Our results show that even when there is a chance of collusion between MFI and the borrower, the linkage between MFI and bank can still increase the probability that the borrower puts in full effort, and therefore decreases the probabilities of both credit rationing and strategic default. Such linkage in financing viable projects can make micro-financing more effective in achieving inclusive financial development and thereby poverty reduction in rural areas.
+
+## 1 Introduction
+
+Former United Nations Secretary-General Kofi Annan, on 29 December 2003, said: ¡¥The stark reality is that most poor people in the world still lack access to sustainable financial services, whether it is savings, credit or insurance. The great challenge before us is to address the constraints that exclude people from full participation in the financial sector¡¦. Recently, Alliance for Financial Inclusion (AFI) Executive Director Alfred Hannig highlighted during the IMF-World Bank 2013 Spring Meetings: ¡¥Financial inclusion is no longer a fringe subject. It is now recognized as an important part of the mainstream thinking on economic development based on country leadership¡¦.
+
+It is reported that ¡¥38% of adults in the world do not use formal financial services, and 73% poor people are unbanked because of costs, travel distances and the often-burdensome requirements involved in opening a financial account¡¦.1 As a means of fostering financial inclusion, microfinance institutions (MFIs) play an important role in poverty reduction for developing countries. Lacking sufficient collateral to pledge, most rural borrowers suffer from credit rationing problems, as borrowers¡¦ asymmetric information increases the default risks caused by adverse selection, moral hazard, and strategic defaults (Stiglitz and Weiss, 1981). The literature has addressed two approaches that MFIs can help in mitigating these information problems. The first approach argues that the group-lending scheme in MFIs lending can reduce borrowers¡¦ adverse selection problem by peer monitoring or group pressure (Banerji, 1995; Ghatak, 1999; Ghatak and Guinnane, 1999). The second approach contends that the linkage mechanism between MFIs and commercial banks can generate information externality to other banks and help restore the loan market through participation of multiple banks (Fuentes, 1996; Bose, 1998; Conning, 1999; Jain, 1999).
+
+For either of the two approaches, the credibility of MFIs is the key for the mechanism to work. Unfortunately, frauds may occur in microfinance institutions (MFIs) as it can happen in any other type of company, organization or government institution in countries where there are weak institutions, weak rule of law, and fraudulent behavior of MFI officers for personal gain. There are increasing reports that local nongovernment (NGO) MFIs subcontracted by a multi-million-dollar microfinance program are taking bribes from borrowers.2 As documented on the microfinance gateway site (http://www.microfinancegateway.org/) of CGAP (World Bank), there have been investor concerns about corruption in MFIs. While there are increasing calls to launch financial governance on these NGO MFIs, many would worry whether frauds of this nature can damage MFIs¡¦ contributions to the credit market, particularly in the bank-linkage program where the NGO MFIs act as third party intermediary to reveal information about the borrower (see Bose, 1998). In a recent empirical study, Al-Azzam (2016) provide evidence that microcredit interest rates respond positively to corruption. The study reports asymmetry in this relationship in the sense that while corruption has a positive and significant impact on interest rates of unregulated MFIs, it has a negligible impact on interest rates of regulated MFIs. Therefore, it is possible that countries with better regulation of MFIs can have low incidence of bribery as in Dechenaux et al. (2014).
+
+Using a sample of 832 MFIs from 74 countries for the period 2003¡V2011, Sainz-Fernandez et al. (2015) identify different internal and external factors for crises in microfinance institutions. They find that countries with high levels of corruption can create disincentives for customers to pay back loans and thereby MFI failure, as the control of corruption variable has a positive and insignificant coefficient with the mean value of control of corruption for these 74 countries staying at ???0.556 (when the indicator ranges from ???2.5 to 2.5 ¡V from high to low corruption). Using the same variable (mean value of ???0.58), Ahlin et al. (2011) find that corruption acts as a barrier to start-up microenterprise growth, although not to subsequent extensive MFI growth. There is therefore sufficient anecdotal and rigorous empirical evidence to motivate our analysis that there are common types of fraudulent practices by MFI officers for private gain in countries where there are weak rule of law and poor quality institutions as reflected in the control of corruption index used in these studies. In section 'No linkage', in the context of India, we show that banks and financial institutions were entering the microfinance market in increasing numbers until 2008¡V2009 (see Figure 4). Since then, the linkage program has stabilized possibly showing cases of bad practices, partly supporting the evidence in Sainz-Fernandez et al. (2015) and anecdotal evidence in Lahkar and Pingali (2016). Nevertheless, getting MFIs to coordinate with self-help groups (SHGs) is important in order to establish a robust linkage with mainstream commercial banks and make the bank-MFI linkage sustainable. As the number of SHGs has declined since 2009 as shown in section 'Related Evidence on Microfinance Activity', this does reflect the possible impact of frauds or failure of some SHGs.
+
+The purpose of this study is to analyze the collusion decisions faced by MFIs and the impacts on the bank-linkage program as a solution to mitigate the information problems in the credit market. Our results show that even when there is a chance of collusion between MFI and the borrower, the linkage between MFI and bank can still increase the probability that the borrower puts in full effort, and therefore decreases the probabilities of both credit rationing and strategic default.
+
+We demonstrate that banks are more likely to lend to borrowers whose projects have been partially funded by MFIs. We consider collusion behavior by the MFI, which will extract a share of the gains from strategic default from the borrower and thus reduce the borrower's gain from strategically defaulting on the bank's loan. However, our conclusions are robust to the relaxation of this assumption. Partial funding from the MFI reduces the amount borrowed from the banks and lowers the payoff from strategic default as long as it is assumed that the MFI can always prevent strategic default on the amount that it lends.
+
+Specifically, we consider a linkage between commercial bank and MFI. In an environment with asymmetric information on the borrower's effort cost, the commercial bank takes the loan made by MFI as a collateral or endorsement. So the MFI's lending decision will serve as a signal of the borrower's effort cost, with which the commercial bank can adjust its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems. Our contribution is to consider the possibility that the MFI can collude with the borrower, make a fictitious loan and then ask for a share of the extra loan from the bank. Our result shows that the bribe requested by the MFI will decrease the borrower's shirking benefit, which then increases the borrower's relative benefit of putting in full effort. Although the bank's lending threshold is unchanged, its posterior belief that the borrower may put in effort will increase (after observing the MFI's loan decision), and hence the probabilities of credit rationing and strategic default will both decrease. In other words, in addition to the function of screening borrower types which has been the main idea in the existing discussion on linkages, the MFI is able to monitor their efforts and extract rents from shirkers. Collusion between MFI and the borrower will reduce the borrower's benefit from shirking, and hence the screening function of linkage is reinforced when the possibility of collusion of this nature is considered.
+
+Many studies have addressed the impact of corruption in the credit market (Jain, 2001; Beck et al., 2006; Barth et al., 2009), but only a few discuss the impact of corruption in a vertical hierarchy lending framework. Hwang et al. (2007) consider corruption between borrower and auditor in a lending contract; a low-type firm can bribe the auditor to file an untruthful report about its true type so as to obtain a loan from the bank to finance a risky project. Their main finding is that, depending on the economic environment, the bank may or may not want to deter such a collusion in the lending contract. Our framework is different from theirs in the sense that the MFIs-bank linkage is self-interest motivated on the part of the MFI. There is no incentive rent required for MFI to take its role (Fuentes, 1996; Varghese, 2005), nor other policies such as subsidies are required. Since MFI's money is directly involved in this linkage, the lending decision of MFI is itself a trustable endorsement of the borrower's reputation and repayment capacity. Most importantly, collusion between MFI and the borrower will improve the benefit of this linkage.
+
+Gupta and Chaudhuri (1997) present a theory of interest rate determination on informal-sector credit where the farmer has to bribe the official of the formal credit agency in order to get formal credit, but the informal-sector interest rate and the effective formal-sector interest rate (incorporating the bribe) are equal in equilibrium (also see Chaudhuri and Gupta, 1996; where they incorporate the possibility that the loan officer of the formal credit agency is bribed by the farmer to reduce the delay in disbursement of formal credit). Saha and Thampy (2006) present a dynamic model of subsidized credit provision to examine how asymmetric information exacerbates inefficiency caused by corruption. They find that when a borrower and a corrupt loan officer interact with private information on the borrower's productivity, the official may induce one type of borrower to default. Chaudhuri and Ghosh-Dastidar (2011) also consider a similar corruption scenario by a bank official in disbursing formal credit. These are the common bribery related frauds which are less likely to disappear from countries where there are weak institutions which require attention in any commercialization of informal credit market. In the bank-MFI linkage program that we highlight in this paper, we are able to show that the presence of any type of corruption (bribery or fraudulent practice) as it may occur in any organization or government institution, requires a premium to be added to the cost of a loan which in turn makes the microfinance interest rate being higher than the market interest rate charged by a bank. Even with higher interest rates and default rates in the MFI sector relative to formal banks, Lahkar and Pingali (2016) show that the expansion of microfinance can represent a Pareto improvement in all borrowers¡¦ welfare.
+
+Finally, Jain and Mansuri (2003) provide a unified theory of early repayment and continued existence of informal moneylenders, while studying the interaction between the informal and the microfinance sector using a moral hazard framework. Jain and Mansuri (2003) conclude that the use of regularly scheduled repayments by MFIs force borrowers to take loans from informal lenders in order to repay microfinance loans. The rationale is that MFIs can benefit from the monitoring advantage of better-informed moneylenders. As a consequence, microfinance can expand the volume of informal lending and may also raise the interest rate in the informal sector. In that sense, our framework is complementary to Jain and Mansuri (2003), and we develop an extended approach to link MFIs with the formal commercial banks to expand this loan market by considering both lending (higher loan amount) and repayment. In a credit-constrained developing economy, financial intermediaries play a key role in bridging the gap between loan supply and loan demand, helping boost economic activity. Given the lack of willingness by the formal sector to lend to the poor, our paper puts together a framework linking formal banks and MFIs [as opposed to MFIs and informal money lenders as in Jain and Mansuri (2003)] so as to help achieve higher penetration, outreach, targeting, as well as repayment rates.
+
+In Section 'The Model', we describe a credit market with asymmetric information, where the commercial bank has incomplete information on the borrower's effort cost. ¡¥No Linkage¡¦ presents the two information problems: credit rationing and strategic default. ¡¥Linkage with MFI¡¦ introduces a linkage between MFI and the bank, and shows that even with the possibility of collusion in MFI, this linkage can mitigate the credit rationing and strategic default problems. An important assumption in the proposed linkage is that MFIs are more informative than commercial banks. We provide related evidence for this assumption in Section 'Related Evidence on Microfinance Activity'. Then we address briefly the historical failure of government intervention through priority sector lending, and describe some related evidence that supports our theoretical conclusions for the benefits of a linkage between commercial banks and MFIs. The last section contains concluding remarks.
+
+## 2 The Model
+
+We consider a credit market with asymmetric information. There are three players: commercial bank, MFI and a rural borrower. The rural borrower has a project which needs external funding L. MFI is different from commercial bank in two aspects: (1) MFI is local and knows better about the borrower, or has more weighing power than the borrower; (2) MFI is smaller in scale, so can only provide part of the required loan. The rate of return on the borrower's project is assumed to be stochastically determined by the borrower's effort, which is not observable by the commercial bank. The MFI, due to its advantage in location, knows better about the borrower's effort choice.
+
+Our contribution is to consider the possibility that the MFI can collude with the borrower, make a fictitious loan and then ask for a share of the extra loan from the bank. We will demonstrate that, introducing a linkage between MFI and the bank can mitigate the credit rationing and strategic default problems, even if we consider the possibility of collusion or frauds in MFI. The linkage between commercial bank and MFI takes the following form. In an environment with asymmetric information on the borrower's effort cost, the commercial bank takes the loan made by MFI as a collateral or endorsement. The MFI's lending decision will serve as a signal of the borrower's effort cost. The commercial bank then adjusts its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems.
+
+Throughout this paper, we characterize the Bayesian equilibria for the model. We analyze the bank's (and MFI) loan decisions and the borrower's effort decision first. Then we look for the range of parameters that support the collusion-free equilibria.
+
+No linkage
+
+We first demonstrate the existence of credit rationing and strategic default problems in a situation where there is no linkage between MFI and commercial bank. Later we show how a linkage between MFI and the bank can mitigate these problems, even if there is collusion between MFI and the borrower.
+
+Consider an indivisible project which needs an external funding of size L. The rate of return for this project is assumed to be uncertain and determined by the borrower's effort. Specifically, denote math formulawith 0 < eH, as the borrower's effort decision,3 and R as the project's rate of return, which is a function of the borrower's effort. If e = 0, then R = 0 for sure; If math formula, then the rate of return on the borrower's project follows a nondecreasing distribution math formula over (???¡Û, ¡Û), with math formula being the density function.
+
+We assume that there is asymmetric information between commercial bank and the borrower. That is, let ce be the borrower's effort cost. The bank cannot observe the marginal cost c, but has a belief that c follows a uniform distribution over math formula, with math formula. Under incomplete information, the commercial bank needs to decide whether to give a loan L to the borrower. If the borrower is given this loan, she needs to decide whether to put in full effort eH or not. After the effort decision, the project return realizes and becomes publicly known.
+
+Bank's loan decision
+
+The commercial bank will lend out L if the expected gain of lending is greater than the expected loss. That is, let £l with 0 < £l < 1 denote the bank's belief that the borrower will put in full effort eH. We will later explain how this belief is determined by the bank's belief on the borrower's marginal cost of effort and the borrower's effort decision. Denote rc as the prevailing competitive interest rate.4 The expected gain for lending L is:
+
+display math	(1)
+The expected gain occurs only when the borrower puts in full effort, the probability of which is £l. However, even if the full effort has been put in, the rate of return is uncertain, so there are only two possibilities to have positive payoff. First, when the rate of return is greater than (1 + rc), the bank can receive the interest of rcL. The probability for R ??? (1 + rc) is math formula, as in the second term of equation (1). Notice that this probability can be rewritten as 1 ??? F(eH,1 + rc). Second, when the rate of return is not high enough for full repayment (i.e. L + rcL), the bank will take whatever it can. That is, for 1 ??? R < 1 + rc, the gain will be (R ??? 1)L.
+
+The expected loss for lending L is:
+
+display math	(2)
+If no effort is put in, the bank will lose the whole loan L. However, even if full effort has been made (with probability £l), when the rate of return is not enough to repay L (i.e. for 0 < R < 1), the commercial bank will take whatever positive and bear a loss of (1 ??? R)L. The expected sum of this loss is contained in the second term of equation (2). Moreover, the last term indicates the situation when the project return drops below the debt obligation, that is, for R < 0, so the bank loses the entire loan L.
+
+For an arbitrary level of interest rc, there exists a threshold level £l* where the expected gain is equal to the expected loss of lending. Notice that £l* is not related to L, as L appears in both of the expected gain and loss. Since the difference of gain and loss is increasing in £l, we can summarize the bank's loan decision as:
+
+display math	(3)
+Note that the expected gain is increasing in rc, but the expected loss is not related to rc. So £l* is decreasing in rc, indicating that as the banking sector becomes more competitive, the interest rate becomes lower and the bank becomes less willing to give a loan.
+Borrower's effort decision
+
+When given a loan L, the borrower trades off the benefit of putting in full effort and that of shirking. That is, for e = eH, the borrower receives an expected payoff math formula, where
+
+display math
+On the other hand, the benefit of shirking is simply the loan L. Let c* be the threshold value such that math formula. Since math formula is decreasing in c, we can summarize the borrower's effort decision as:
+
+display math
+Since u(rc, eH, c) is decreasing in rc, we know that c* is decreasing in rc. For simplification, we assume that math formula, for otherwise we need to discuss the extreme cases with c* < 0 and  math formula.
+Credit rationing and strategic default
+
+Credit rationing happens when a borrower's demand for credit is turned down even if this borrower is willing to repay at the prevailing interest rate (Baltensperger, 1978). Strategic default happens when the borrower is given the loan, but she deliberately makes no effort and thus fails to repay the debt. We will characterize the probabilities of these two problems.
+
+Given that c follows a uniform distribution over math formula, the bank believes that the probability that the borrower puts in full effort is the probability that c < c*, that is, math formula. Then according to equation (3), the bank will lend out if math formula; that is, when the threshold value for the bank's loan decision is smaller than the borrower's effort threshold. In this case, the probability of credit rationing is the probability when the borrower will put in effort (i.e. c ??? c*), but the bank will not lend out (i.e. £l < £l*), that is, math formula. The probability of strategic default is the probability when the bank will lend out (i.e. £l > £l*), but the borrower will shirk (i.e. c > c*), that is, math formula. Figure 1 depicts the case with math formula in unit interval, and Proposition 1 summarizes these results.
+
+Figure 1. 
+Figure 1. Open in figure viewerDownload Powerpoint slide
+Credit rationing and strategic default without a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]
+Proposition 1. Due to asymmetric information about effort cost, if the bank ever makes a loan to the borrower, credit rationing happens with a probability math formula, and strategic default happens with a probability math formula.
+
+Notice that in equilibrium the bank is able to calculate the borrower's default decision (as parameterized by c*). But since the return is uncertain [as captured by F(eH, R)], even if full effort has been put in, the project could end up being a disaster [which is captured by the second term of equation (2)]. Therefore, after considering this part, the bank's lending threshold (i.e. £l*) will not coincide with the borrower's shirking threshold (i.e. math formula).
+
+Moreover, since the difference between the expected gain and expected loss is increasing in both £l and rc, we know that £l* is decreasing in rc. Together with earlier result that c* is decreasing in rc, we can calculate how the probabilities of credit rationing and strategic default change with the level of rc.
+
+Corollary 2. When the banking system becomes more competitive, there is a smaller chance of credit rationing, but a higher chance of strategic default.
+
+It is easy to check that if math formula is sufficiently high, then the probability of credit rationing will increase with rc, and the probability of strategic default will decrease with rc. Since the interest rate is determined in the banking sector, ceteris paribus, rc can vary with the degree of competition in the banking sector (see the Monti-Klein model in Freixas and Rochet, 1998 and empirical studies by Neuberger and Zimmerman, 1990). The interest rate on loan will decrease when the banking sector becomes more competitive. This corollary suggests that when the banking system becomes more competitive, there is a smaller chance of credit rationing, but higher chance of strategic default.
+
+In the next section, we examine how the linkage between MFI and the bank can reduce the information asymmetry between bank and borrower, which hence mitigates the credit rationing and strategic default problems. However, relying on MFI's information is not riskless, as there are growing reports of frauds in MFIs. Considering the possibility of collusion in MFIs, it is worrisome how much the bank's loan decision will be affected by the collusion between the borrower and MFI. Or reversely, can the bank's loan decision change the extent of collusion between MFI and the borrower? Our result shows that the possibility of collusion can improve the benefit of this linkage.
+Linkage with MFI
+
+In this section, we consider a linkage between commercial bank and MFI. Although MFI is better informed of the borrower's effort cost, MFI is smaller in scale and thus cannot lend the whole loan. If the commercial bank can take the loan made by MFI as a collateral or endorsement, then the MFI's lending decision will serve as a signal of the borrower's effort cost, with which the commercial bank can adjust its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems. However, relying on MFI's information is not riskless. We will consider the possibility of frauds in MFIs, and examine how the bank's loan decision will be affected by the collusion between the borrower and MFI.
+
+The basic assumptions on the project remain the same as in Section 'The Model'. That is, the project needs a loan of size L. The borrower's effort cost c is not observable by the bank, and the bank believes that c is uniformly distributed over [0,math formula]. Even if the full effort is put in, the rate of return is uncertain and distributed according to F(eH, R).
+
+For this linkage to work, we assume that the better-informed MFI makes its lending decision first. Since MFI can make only a fraction M( < L) of the loan, it has to figure whether the bank is willing to fund the rest of loan amount, otherwise the project will not be completed. Moreover, MFI can also collude with the borrower, make a fictitious loan, and share the shirking benefit with the borrower. After observing MFI's loan decision, the bank decides whether to give the rest of loan amount, considering the possibility that the loan given by MFI can be false.
+
+The sequence of actions for this linkage is given as follows. First, the borrower asks for a partial loan M from MFI. MFI has three choices: (1) not to lend out M; (2) to lend out and ask the borrower to work; (3) to lend out but ask the borrower to shirk and collude. If the borrower accepts the loan agreement, then in the second stage, she turns to the bank for the rest loan (L ??? M). Upon observing MFI's loan decision, the bank decides whether to give the rest loan. Third, if the full loan is given, the borrower makes her effort decision. If she shirks, MFI can observe and ask her to repay M. In addition, MFI could ask for a share of this extra benefit (L ??? M). For the ease of illustration, we describe the MFI's loan decision and the borrower's effort decision first, then we address the commercial bank's loan decision.
+
+MFI's loan and bribe decisions
+
+Due to the advantage in location, MFI knows better about the borrower, and we assume that MFI can observe whether the borrower has put in effort or not. When the borrower approaches and asks for a partial loan M, there are three choices for the MFI. First, if MFI refuses to give the loan, its payoff is null. Second, if MFI gives the loan M, then the expected gain depends on whether the commercial bank will give the rest loan and whether the borrower will make the effort.
+
+Let £] denote the probability that the bank will lend the rest loan. Let rm with rm > rc be the interest rate charged on the fraction of loan M.5 Later in Section 'Related Evidence on Microfinance Activity', we will provide evidence for this assumption. Since MFI is assumed to be able to observe £l, MFI's expected gain of lending M if the borrower puts in effort is:
+
+display math	(4)
+If the bank does not lend out, MFI will ask the borrower to return the partial loan M. Thus, the term (1 ??? £]) does not appear in the above expected gain.
+
+On the other hand, when the borrower shirks, MFI can observe and ask the borrower to repay the partial loan M. Moreover, if MFI asks for a bribe, then we assume that MFI can get a proportion ??M of (L ??? M),  and let (1 ??? ??M) denote the proportion for the borrower. The expected gain for this alternative is hence:
+
+display math	(5)
+One possibility to solve ??M is to find the Nash bargaining solution, where ??M will be positively related to the relative bargaining power of MFI and the borrower (see Basu et al., 1992; Barth et al., 2009).
+
+Comparing the expected gains of the three choices, MFI is better off lending M than not lending for £] ??? 0. Next, let math formula be the threshold where MFI is indifferent between asking the borrower to proceed with the project and shirking and colluding. MFI will lend out the partial loan and ask the borrower to work if math formula.
+
+Lemma 3. math formula is increasing in rm, M and the borrower's effort efficiency, but not related to £].
+
+Proof. First, since the expected gain in equation (4) is increasing in rm, ??M (rm) is increasing in rm. Second, since the expected gain in equation (4) is increasing in M, but (L ??? M) in equation (5) is decreasing in M, so math formula is increasing in M. Finally, consider another distribution F¡¬(eH, R), which first-order stochastically dominates F(eH, R). The expected gain in (4) is higher with F¡¬(eH, R), and hence math formula is higher.
+
+¡¼
+
+Due to the advantage in location, the borrower's effort decision is observable by MFI. So, if the bank does not lend out the rest loan, or if the borrower shirks, MFI can always ask the borrower to repay the partial loan M. Hence, the key for MFI's loan decision is the amount of collusion benefit, and math formula is the largest share of collusion benefit that the borrower can offer to MFI. Since we are interested in equilibria where the borrower's effort decision is consistent with MFI's lending decision, we will focus on the cases with math formula.
+
+Moreover, we have assumed that MFI can observe e, because relatively MFI knows better about the borrower than the bank. If the observation is limited, the easiest way is to assume a proportion (say, p) that MFI can observe e. Then we multiply the benefit in equation (4) by p, and multiply the benefit in equation (5) by (1???p). In this case, the threshold math formula will be the benefit share where the two expected benefits are equal. Then depending on the relative size of p, the threshold will be greater [when p/(1 ??? p) > 1] or smaller [when p/(1 ??? p) < 1] than the complete observation case.
+
+Similarly, the easiest way to incorporate incomplete enforcement into our model is to assume that there is a probability (say p¡¬) of retrieving the benefit for shirking. Then equation (5) becomes: p¡¬£]??M(L ??? M) ??? (1 ??? p¡¬)M, where the second term indicates that if the borrower shirks and runs, then MFI will lose M. Then, depending on the relative size of p¡¬, the threshold math formula will be greater or smaller than the complete observation case. In other words, our framework is capable to deal with both limited observation (on effort) and the incomplete enforcement.
+The borrower's borrowing and effort decision
+
+The borrower needs to accept the loan agreement with MFI first. Then, once given the full amount of loan from the bank, she needs to decide whether to put in effort or collude with MFI.
+
+First, if the borrower does not accept MFI's loan agreement, her payoff will be null. Next, if the borrower is given the full amount of loan L (i.e. £] = 1), she needs to trade off the benefit of putting in full effort and that of shirking and sharing the collusion benefit with MFI. That is, if e = eH, the borrower receives an expected payoff:
+
+display math	(6)
+The borrower receives a return after loan repayment when R > (1 + rc) for the partial loan (L ??? M), and when R > (1 + rm) for the partial loan M. Alternatively, we can rewrite this gain as
+
+display math	(7)
+On the other hand, in the case of shirking, MFI can observe it and ask the borrower to repay the partial loan M. In addition, MFI may ask for a share of the extra benefit from shirking. That is, the borrower's least benefit of shirking (for her decision to be consistent with MFI's loan decision) is:
+
+display math	(8)
+We can parameterize the borrower's decisions as follows. Let math formula denote the threshold for the borrower to be indifferent between putting in full effort [equation (7)] and not accepting the loan (i.e. 0). Likewise, let c*L denote the threshold for the borrower to be indifferent between putting in full effort [equation (7)] and shirking and sharing the benefit with MFI [equation (8)]. Notice that we add in a superscript L to denote the thresholds with a linkage. Next, since the expected payoff is decreasing in c, we have math formula. Figure 2 illustrates the parameter ranges for the borrower's decisions.
+
+Figure 2. 
+Figure 2. Open in figure viewerDownload Powerpoint slide
+Borrower's decisions with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]
+If math formula, then the bank can benefit from the linkage with MFI, even under the possibility of collusion between MFI and the borrower. However, if math formula, then since math formula is the upper bound for the bank's belief, the following result still applies.
+
+Proposition 4. Even with a possibility of collusion between MFI and the borrower, the probability that the borrower puts in full effort will increase when there is a linkage between MFI and bank.
+
+Proof. If rm is not too higher than rc, then since math formula and the expected payoff is decreasing in c, c*L will be higher than the threshold value c* in the case without a linkage. If math formula, then the probability that the borrower puts in full effort is math formula without a linkage, and the probability with a linkage is at least math formula. Since math formula, we have the conclusion.
+
+¡¼
+
+When there is a linkage between MFI and bank, the borrower's shirking benefit shrinks because MFI can observe her shirking and ask her to repay M. Moreover, MFI will ask for a share of the extra loan (L ??? M). Relatively, the benefit of putting in effort becomes higher, thus tolerating a higher level of effort cost. Notice that since the borrower has to pay MFI part of loan (i.e. M) for bribery, the borrower will become less willing to borrow compared to the no collusion case. Therefore, we have a threshold value math formula in Figure 2.
+
+Corollary 5. c*L increases with math formula.
+
+Proof. Notice that the least share of shirking benefit math formula is decreasing in math formula. Since the expected gain is decreasing in c, c*L increases with math formula.
+
+¡¼
+
+We will later refer to math formula as the impact of collusion between MFI and the borrower. As MFI asks for more from the shirking benefit, the borrower will find it relatively better off working.
+Bank's loan decision
+
+The commercial bank's lending decision is similar to that in Section 'The Model', except now that the borrower asks for a partial loan (L ??? M), instead of the full loan L. As we will demonstrate, the bank's decision is not related to the size of loan.
+
+Let £l, with 0 < £l < 1, denote the bank's belief that the borrower will put in full effort eH. Denote rc as the prevailing competitive interest rate. The expected gain for lending (L ??? M) is:
+
+display math	(9)
+The expected gain occurs only when the borrower puts in full effort, the probability of which is assumed to be £l. Then for R ??? (1 + rc), the bank can get the full repayment (i.e. (L ??? M) + rc(L ??? M)); for 0 ??? R < 1 + rc, the bank will take whatever it can and the gain will be (R ??? 1)(L ??? M).
+
+The expected loss6 for lending (math formula) is:
+
+display math	(10)
+For an arbitrary level of interest rc, there exists a threshold for the expected gain to be equal to the expected loss of lending. Since (L ??? M) appears in both expected gain and loss, this threshold will be the same as £l* from Section 'The Model'. Thus, the bank's loan decision can be parameterized as equation (3).
+Benefits of linkage under collusion
+
+With a linkage with MFI, the bank can improve its information related to the borrower's effort cost and effort decision, through observing MFI's loan decision. First, as described earlier, since the borrower's shirking benefit is smaller within a linkage, the threshold for putting in effort c*L is greater than c*.
+
+Next, if math formula, the bank anticipates the probability that borrower will put in effort within a linkage is math formula. This is higher than the probability without a linkage math formula. Given that the bank's threshold £l* for lending is the same for with and without a linkage, there is a higher probability that the partial loan is accepted by the bank. Altogether, we have math formula.
+
+Figure 3 depicts the bank's loan decision and the borrower's effort decision with and without a linkage for math formula.
+
+Figure 3. 
+Figure 3. Open in figure viewerDownload Powerpoint slide
+Credit rationing and strategic default with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]
+Lemma 6. Even with a possibility of collusion between MFI and the borrower, the probability that the bank lends out is higher when there is a linkage with MFI.
+
+Proof. Since math formula, the chance when math formula is higher than the chance when math formula.
+
+¡¼
+
+When there is a linkage with MFI, the borrower's shirking benefit becomes smaller and hence there is higher chance to put in full effort. Although the bank is not informed of the effort cost c, its belief that the borrower will put in effort increases, so the chance that the bank will lend out will increase, despite that the threshold £l* is not related to the loan size.
+
+Proposition 7. Even with a possibility of collusion between MFI and the borrower, when there is a linkage between MFI and the bank, both the probabilities of credit rationing and strategic default decrease.
+
+Proof. The probability of credit rationing is math formula with a linkage, which is smaller than math formula without a linkage. Similarly, the probability of strategic default math formula is smaller than that without a linkage.
+
+¡¼
+
+Proposition 8. A linkage with the MFI benefits more in a less competitive banking sector.
+
+Proof. We here show that the difference (math formula) will increase with rc. First, notice that math formula is greater than math formula. Since equation (7) is the difference between u(rc, eH, c) and + M{(1 + rc)[1 ??? F(eH, (1 + rc)] ??? (1 + rm)[1 ??? F(eH, (1 + rm)]}, both math formula and math formula are negative but math formula. Hence, math formula.
+
+¡¼
+
+Finally, according to Corollary 5, c*L increases with math formula. math formula indicates the highest possible impact from the collusion between MFI and the borrower. According to the Nash bargaining solution, math formula, will be negatively related to borrower's bargaining power.
+
+Corollary 9. The linkage benefits more when the borrower's bargaining power is weaker than MFI.
+
+It should be noted that this linkage is self-interest motivated on the part of the MFI. There is no incentive rent required for MFI to take its role (see Fuentes, 1996), nor other policies such as subsidies are required. In other words, since MFI's money is directly involved in this linkage, the lending decision of MFI is itself a trustable endorsement of the borrower's reputation and repayment capacity. The benefit that MFI will get from making a partial loan can serve as a rent for MFI to be a bridge loan provider, and most importantly this rent is determined endogenously in the lending decision.
+
+There is a long line of literature addressing collusion in three-layer hierarchies (principal-supervisor-agent framework) (see Tirole, 1986; Kofman and Lawarree, 1993; Laffont and Martimort, 1997).7 Collusion refers to the sub-contract between supervisor and the agent. The possibility of collusion imposes an additional cost on the use of the supervisor. The principal is the residual claimant of the vertical structure. He designs the ¡¥collusion-proof¡¦ contract and offers it to the agent and the supervisor, including a formal grand contract linking together the principal, the supervisor and the agent and then an informal collusive side-contract linking only the supervisor and the agent. Hwang et al. (2007) consider collusion between borrower and auditor in a lending contract. They show that depending on the economic environment, the bank may or may not want to deter such a collusion in the lending contract, as ¡¥collusion-proof¡¦ may be too costly for the bank.
+
+Our model is different from this line of literature in two aspects. First, our agency relations are only in two-layer hierarchies: MFIs-borrower, and bank-borrower. The MFIs-borrower contract takes place first. Then, the bank observes the MFIs¡¦ lending decision, and proceeds with the bank-borrower contract. Thus, as described in Section 'Introduction', the MFIs-bank linkage is self-interest motivated on the part of the MFI. That is, unlike the three-layer framework, there is no incentive rent required for MFI to take its role (Fuentes, 1996; Varghese, 2005), nor other policies such as subsidies are required.
+
+Second, our paper has characterized the ¡¥perfect Bayesian equilibrium¡¦ for this sequential two-layer agency problems. The reason we do not describe the optimal contracts for the two agency problems is the following: In a credit contract, interest rates (fees) usually vary with the borrower's repayment ability. Since we have assumed that, due to their locational advantage, MFIs have better information about the borrower's repayment ability. We should expect that the interest rates charged in the MFIs-borrower contract are lower than those charged in the bank-borrower contract. If so, it is then difficult to explain why the abundant evidence we will present in Section 'No linkage' shows that MFIs charge more than the bank (i.e. rM > rc).
+
+In our discussion, MFIs¡¦ lending serves as a collateral for the bank's lending. Hence, we have assumed that MFIs have the bargaining power to negotiate with the borrower on the bribe or linkage benefit [see e.g. the discussion in equation (5)]. On the other hand, the interest rates charged by commercial banks are usually regulated or competitive. Thus, the assumption that rM > rc can fit in well with the evidence and also be explained by our model. Finally, the intuition that ¡¥bribes make shirking costly¡¦ is analogous to the bribery literature (see Becker and Stigler, 1974; Polinsky and Shavell, 2000), which shows that the bribe can serve as a substitute for the fine in the law enforcement settings.
+3 Related Evidence on Microfinance Activity
+
+In this section, we explain why MFIs are more informative than commercial banks, which play a key role in the proposed linkage. Then, we provide evidence that shows the importance of MFIs in inclusive development such as poverty reduction, while addressing briefly the failure of interventionist policies, which impose direct controls on commercial banks loan decisions, in facilitating credit flow to the poor. Finally, we describe some evidence that supports our theoretical conclusions for the benefits of a linkage between commercial banks and MFIs.
+
+MFIs Are More Informative
+
+According to Morduch (1999a, 2000), who provided comprehensive surveys on the topic of rural finance, microfinance often displays patterns and features not commonly found in institutional lending. First of all, since MFIs are mostly located close to rural areas, lenders possess a great deal of information about relevant borrower characteristics, such as farming ability, size and quality of landholdings, cropping patterns and risk attitudes. In addition to advantages in location, Sarap (1991) discovered in survey data that the guarantee system prevalent in informal credit markets with diverse socioeconomic conditions is very complex. And the moneylender, through a variety of guarantees including collateral and personal relationship, is in a position to screen and monitor the borrowers with negligible cost in such a way that there is hardly any risk of default.
+
+Assessing 1438 households in six provinces in Indonesia, the country's largest microfinance bank judged about 40 percent of poor households as creditworthy, and possessing collateral appeared as a minor determinant of creditworthiness (see Johnston and Morduch, 2008). However, the formal banks may not want to provide financial services to the poor, as the lending brings about problems such as collateral, location, information and small loan size. Since the MFIs entered the scene more than a decade ago, they have always been local and have based their business on local relationships and were willing to serve the unbanked despite their desire for small size loans.8
+
+In order to exploit the informational advantage that the MFIs have, there is a need to establish a linkage between formal banks and the rural borrower via the MFIs. For example, given the 95¡V100% loan repayment rate of more than 1 million Self-Help Groups (SHGs) in India, the NABARD has initiated a credit linkage program9 to reduce transaction costs for both banks and borrowers and thus achieve the objective of providing credit access to the poor or greater financial inclusion.10 The MFIs charge interest rates that are much higher on average than bank interest rates but also show significant dispersion, presenting apparent discretion opportunities (see Ghosh et al., 2001). As the MFIs have limited capital base, they usually charge high interest rate to cover their operational expenses. Currently, MFIs in general charge over 50% on their loans, but this high rate can be lowered for good borrowers as in the case of SHGs, if the MFIs can intermediate their access to the formal loan market. Recently, many MFI's in India, and ICICI Bank, India's second largest bank (and largest private bank), have entered into a mutually beneficial strategic partnership agreement to provide microfinance services to the poor, given the MFI's market knowledge of poor customers and the ICICI bank's vast financial resources (see Ananth, 2005). In Indonesia, Hamada (2010) has shown that bank loans through linkage programs to MFIs contribute more than bank loans alone, in terms of outreach to the poorest of the poor, in line with our theoretical results.
+
+From the borrower's perspective, due to lack of access to formal financial services, the poor have developed a wide variety of informal, community-based financial arrangements to meet their financial needs, for example, the Rotating Credit and Savings Association (ROSCA), which typically consists of a group of community members who meet regularly to pool their savings, which is then lent out to one member of the group, who repays it, at which time it is lent out to another group member, and so on until each group member takes a turn borrowing and repaying the pool of savings. Evidence suggests that personal trust between group members and social homogeneity is more important to group loan repayment than general societal trust or acquaintanceship between members (Cassar et al., 2007). It has been well documented that joint-liability group lending can help reduce information asymmetries (see Hermes and Lensink, 2007), and outreach is lower in the case of lending to individuals than in the case of group lending (Mersland and Strom, 2009). Also Ahlin and Townsend (2007) find evidence that repayment is affected negatively by the joint-liability rate and social ties, and positively by the strength of local sanctions and correlated returns. These informal mechanisms (i.e. issuing guarantees or group borrowing) may not be very successful, unless they are brought into operating alongside the MFIs. Banks and financial institutions have been entering the microfinance market in increasing numbers until 2008¡V2009 (see Figure 4). Since then, the linkage program has stabilized possibly showing cases of bad practices as we are trying to highlight in this paper. Nevertheless, as explained earlier, it is important to get MFIs to coordinate with self-help groups in order to establish a robust linkage framework with mainstream banks and make the bank-MFI linkage sustainable.
+
+Figure 4. 
+Figure 4. Open in figure viewerDownload Powerpoint slide
+Self-help group bank-linkage program in India. [Colour figure can be viewed at wileyonlinelibrary.com].
+Source: NABARD (compiled from RBI Handbook of Statistics on the Indian Economy). Notes: Data during the year relate to Commercial Banks, RRBs and Co-operative Banks.
+MFIs can play an effective role in poverty reduction
+
+Most observers regard microfinance interventions as poverty reducing, although most microfinance schemes continue to benefit from external subsidies (see Honohan, 2008). Burgess and Pande (2005) find that state-led bank branch expansion into rural un-banked locations in India significantly reduced rural poverty, using aggregate data. Besides this state-led financial expansion, the micro-credit movement in the recent years also seems to have revolutionized the banking system of many countries such as Bangladesh by moving a large segment of the rural population, from the informal to the formal market through access to institutional credit, thereby establishing the creditworthiness of the poor (Robinson, 2001). New institutions like Bangladesh's Grameen Bank and Bolivia's BancoSol have shown that it is possible to secure high rates of repayment while lending to poor households. The key is a series of new mechanisms, most famously ¡¥group-lending¡¦ with joint liability.11
+
+The group-lending or peer-monitored lending schemes, pioneered by the Grameen Bank, introduce joint liability which induces a group formation of low risk borrowers. Banerjee and Newman (1994) have illustrated the working of the peer monitoring effect. Following the loan disbursement, the incentive system is likely to lead to peer monitoring, peer support and peer pressure between the borrowers, thus helping the lending institution to address the moral hazard and enforcement problems. De Aghion and Morduch (2005) have described mechanisms, namely direct monitoring, regular repayment schedules, and the use of nonrefinancing threats, to generate high repayment rates from low-income borrowers without requiring collateral and without using group-lending contracts that feature joint liability. Such alternative types of group contracts expanded during the 1980s and 1990s, primarily sponsored by the NGOs. Lending to the poor is expensive due to high screening, monitoring and enforcement costs (Karlan, 2007). It is believed that group lending helps overcome this by harnessing social connections via peer monitoring and enforcing joint-liability loans. Karlan (2007) observes direct evidence that individual relationships deteriorate following a default, and that through successful monitoring, individuals know who to punish and who not to punish after default. Although these social network tools can be successful to have higher repayment and higher savings rates, there are costs following the breakdown of a social network. Hence, except for linkage with MFI, other tools can be costly.
+
+Granting small loans to help poor people start businesses became a popular poverty-fighting tool, encouraging private-sector activity (see Hulme and Mosley, 1996; Hassan, 2002). However, due to capital constraints, MFIs can only lend a small amount of money. This will not suffice for many growth-oriented entrepreneurs to start any microenterprise. Madajewicz (2011) argues that individual liability offers the wealthier among poor (credit-constrained) borrowers larger loans even without monitoring, and hence micro businesses funded with individual-based loans as opposed to joint-liability contracts grow more. The strategic monitoring efforts of group members can differ in equilibrium due to the asymmetry between members in terms of future profits and due to free-riding problem (van Eijkel et al., 2009). Besides, another practical limitation of group lending in urban settings is that members are less likely to know each other well as to whether a member is safe or risky as one would know in a rural setting. Also under a group-lending scheme, a default by one borrower can affect the credit rating of the group as a whole. This might help explain why an individual loan contract for a good borrower can be welfare-enhancing if the MFIs with better information about those individual borrowers can graduate them to the formal bank for a larger loan amount to help fund a small business. The success of many individual cases such as in Bangladesh suggests that, if the creditworthiness of the poor established in the process of MFI lending can be incorporated in the credit decisions by formal commercial banks, there will be more chance for growth-oriented entrepreneurs to get access to loans from commercial banks. This market-oriented approach, as shown by the evidence below, is more effective in poverty reduction than current policies which mainly impose controls on commercial banks¡¦ credit decisions, helping achieve financial sustainability with social outreach. So an MFI not only plays the role of a financial intermediary but also can act as a social intermediary.
+Failures of current interventionist policies
+
+The microfinance industry has developed over the past 30 years, but it is still far from reaching its full potential as the industry stands between increased commercialization and increased donor aid. The NGOs in microfinance not only face challenges in balancing outreach and financial sustainability, but there is growing evidence of their failure to make an overall impact on poverty reduction. It has been well documented in the literature that, the subsidized credit programs of the last three decades have failed miserably in giving a helping hand to that segment of the population those who have little access to credit.12 Subsidies distort the market, creating a dependency on subsidies and ensuring that commercial players do not enter the market, effectively push the poorest further away from the point of becoming financially viable as entities in their own right. For example in India, in the 1960s and the 1970s policy intervention in the rural sector was rooted in agricultural finance in a manner that credit, often subsidized credit, was necessary to enable small farmers to adopt risky new crop technologies and also to push them over to commercial (as opposed to subsistence) agriculture. This type of ¡¥directed¡¦ and ¡¥subsidized¡¦ credit administered through government owned-commercial banks did not seem to have fully met the financial needs in the agricultural sector.13 The loans provided for agricultural activities reflecting the government's pro-rural policies are called the priority sector loans.14 Table 1 shows how reduction in priority sector loans contributed to improvement in profits of Regional Rural Banks (RRBs), reflecting the mistakes of the government's official priority sector policies. In the Figure, APS denotes the ratio of the priority sector loans to total assets, and LPS denotes the ratio of priority sector loans to total loans. The ratios are calculated from annual accounts data of RRBs, obtained from the website of India's Central Bank.15
+
+Table 1. Mistakes of the government's official priority selector policies
+ 	Regional rural banks (gramin banks) in India
+APS	LPS	Profit (INR bin)
+APS ¡V ratio of the priority sector loans to total assets.
+LPS ¡V ratio of the priority sector loans to total loans.
+INR bin: billions in Indian rubee.
+Source: RBI.
+1992	0.423	0.913	???2.465
+1993	0.406	0.894	???3.105
+1994	0.368	0.877	???3.686
+1995	0.346	0.859	???3.980
+1996	0.307	0.824	???4.512
+1997	0.258	0.794	???8.025
+1998	0.240	0.784	0.708
+1999	0.228	0.773	2.197
+2000	0.224	0.762	4.284
+2001	0.223	0.734	6.005
+The microfinance revolution of the 1990s sparked a major debate between the poverty oriented16 lending, reflecting distributive role of credit policy and the financial systems approach promoting greater financial innovation. The importance of MFIs in poverty reduction is now well documented, but how can we do better? Direct subsidies or donations to MFIs in the form of grants are currently seen in many countries, but the massive aid has not delivered the expected results (Padmanabhan, 2001), as many micro enterprises as part of larger aid and development projects, have turned unviable, making the MFIs donor-dependent.17 Subsidization in many instances takes the form of cheap loans and when the funds for this dry up, the institution is not in a position to carry on. Also microcredit interest rates are high because micro lending remains a high-cost operation. The key to reducing these rates in a sustainable manner is to reduce costs through improved market competition, innovation, and efficiency. On the other hand, commercial banks are also unwilling to serve the unbanked (low-income earners, micro-entrepreneurs and the poor) due to high costs involved for small loans.
+
+Recently, there has been a shift in the focus of MFIs toward commercialization or profitability as a result of international donor pressure to achieve large-scale operations and financial sustainability. This is the very discernible direction for MFI as pushed by the CGAP, emphasizing on market reform, careful regulation and monitoring, and the development of various other products and services such as deposit taking ¡V a move from traditional micro lending to financial services in the broader sense (see Drake and Rhyne, 2002). Besides, as mentioned earlier, there is some evidence that commercial banks are cautiously venturing into this market through some form of a linkage program.
+
+Following this thinking, our paper has developed a market-oriented approach of a linkage between banks and MFIs lending decisions, which can provide the necessary scale and outreach in order to overcome the sustainability challenge facing the MFIs and thus can help achieve greater inclusiveness and alleviate poverty. If the MFIs can graduate their creditworthy borrowers to the formal bank, these borrowers can get access to a bigger loan amount to expand their business. The formal financial sector is predominantly urban-based, and tends to be out of reach of peasant farmers, small-scale entrepreneurs and ordinary households, so the microfinance sector, Bangladesh being a glaring example, fills the gap in the market. Since the formal sector for providing productive credit has found it less attractive to enter this sector because of fears over default risk, strengthening credit delivery mechanisms is important with special focus on the promotion of micro-credit ventures in the credit delivery that can aid both borrower selection and project implementation. Unlike many other developing countries, in India the policy environment as well as the institutional structure required to serve the needs of the rural people already exists and seems to offer favorable conditions for providing credit to the poor.18
+
+Funding for MFIs comes primarily from governments and international development organizations including the World Bank and regional development banks, and MFI related agencies or donors. There is anecdotal evidence in the media reports that local NGOs subcontracted by a donor-funded microfinance program are taking bribes from borrowers. This type of corrupt practices suggests that subsidized credit or donor-funded micro-credit expansion may not be the way forward for financial deepening and future development in the disadvantaged local economies. Directing financial services to micro-entrepreneurs therefore requires sustainable rural financial systems ideally being market-based. In the case of India, apart from directed lending through priority sector advances, many commercial banks have come forward to support innovative microfinance schemes (Ghosh, 2000). Thus, there is a need to balance microfinance-oriented market-strengthening policies with institutional initiatives to reduce dependence on subsidized or donor-funded microcredit.
+4 Concluding Remarks
+
+Despite the success of microfinance that hinges on group lending ¡V which has been profitable for MFIs and beneficial particularly for the rural poor, there are increasing reports that local NGO MFIs subcontracted by a multi-million-dollar microfinance programs are taking bribes from the borrowers. While there are increasing calls to launch financial governance on these NGO MFIs, many would worry whether collusion of this nature can damage MFIs¡¦ contributions to the credit market, particularly in the bank-linkage program where the NGO MFIs act as third party intermediary. Our study analyzed the collusion decisions faced by MFIs and the impact on the bank-linkage program, which acts as a solution to address the information problems in the credit market. Our results show that in a linkage between MFI and bank, even when there is a possibility of collusion between MFI and the borrower, the probability that the borrower puts in full effort will increase, and both the probabilities of credit rationing and strategic default will decrease.
+
+In the light of the potential for growth in the rural sector, micro-financing can be more effective in achieving inclusive financial development and thereby poverty reduction, if commercial banks become inclined to channel their asset portfolio in financing viable projects in rural areas via the MFIs in the loan approval and monitoring process ¡V a link developed in this paper between formal banks and the rural borrower. This will strengthen the already existing evidence that access to microfinance contributes to poverty reduction (see Khandker, 2005). The banking system is still out of reach for the poor as they cannot bribe a loan officer or provide collateral that the banks need in order to provide them with a loan. Thus, MFIs can act as an intermediary in a bank-linkage program that would allow the poor to access credit market and reduce their poverty on the one hand and to achieve an overall financial sector development on the other. The productive economic activities in the rural areas should be the determining factor for credit allocation. Change in government priorities to enable commercializing rural financial markets can thus help remove the financing constraints facing the micro-entrepreneurs and small-businesses, and thereby provide a direct link between financial development and poverty reduction.
+Acknowledgements
+
+We gratefully acknowledge the constructive comments made by two anonymous referees and the editor of this journal. Thanks are due to Huw Edwards, Ayse Evrensel, T. Krishna Kumar, and Garrett Wyse for their comments on an earlier version of this paper. The usual caveat applies. The first author acknowledges financial support from the Ministry of Science and Technology, Taiwan, NSC 100-2410-H-004-022.
+Notes
+
+1
+http://www.worldbank.org/en/topic/financialinclusion/overview#1
+
+2
+See http://www.speroforum.com/a/17580/Microfinance-industry-breeds-corruption.
+
+3
+The binary effort is assumed to simplify MFI's collusion decision. More general assumption of continuous effort only changes £l from a constant to a distribution.
+
+4
+Due to competition, commercial banks usually charge a competitive interest rate, which is part of the reason why the bank cannot offer a loan contract with properly designed interest rates to screen the borrowers.
+
+5
+For rm < rc, the borrower still borrows as much as the upper limit (M), and the threshold for the borrowing decision (i.e. math formula) will be changed accordingly.
+
+6
+In the case of nonstrategic default, the lenders split the project's return in the same proportion as the share of their contribution to the project. A more practical settlement will involve all lenders bargaining for the shares. In this case, their contributions (i.e. M and L ??? M) will serve as a threat point, and in the case of constant return, the solution will be the same as our assumption.
+
+7
+The authors are greatly indebted to the anonymous referees for this important point.
+
+8
+Jain (1999) uses a model showing the informational advantage of lenders in the informal sector.
+
+9
+See www.nabard.org/roles/microfinance/index.htm.
+
+10
+A SHG is a homogeneous group of about 20 people, who can be financed by a bank without collateral, if the group has accumulated savings and has a credit history.
+
+11
+See Besley and Coate (1995), Ghatak (1999) and Conning (1999). In terms of past evidence, Ghatak (1975) found a positive but a weak link between unorganized and organized credit markets in India.
+
+12
+See Morduch (1999b) for a discussion on failure of subsidized schemes. For different examples, also see www.microsave-africa.com.
+
+13
+Government loans for agriculture have existed in India since 1793, and short-term cooperative credit institutions have existed since 1904 and the banking sector expanded substantially from 1955 with regional rural banks (RRBs) being formed from 1975 onwards, increasing bank finance for rural households (Premchander, 2003).
+
+14
+Credit allocation in favor of priority sectors such as agriculture has been the traditional instrument for monetary policy to play a distributive role; but it has the disadvantage of distorting the credit market.
+
+15
+See www.rbi.org.in. This dataset for RRBs has not been updated since 2002; thus, we could not use the latest data for this table.
+
+16
+See Johnson and Rogaly (1997), Buckley (1997) and Hollis and Sweetman (1998).
+
+17
+See www.themix.org that gives details of 150 MFI's all nearly viable, but 11,000 others may disappear when subsidies are eliminated. These people will have all the hang-ups of dealing with subsidized institutions and no institutions then will be willing to go near them.
+
+18
+See Premchander (2003) for the institutional arrangements with regard to agriculture and rural credit.
