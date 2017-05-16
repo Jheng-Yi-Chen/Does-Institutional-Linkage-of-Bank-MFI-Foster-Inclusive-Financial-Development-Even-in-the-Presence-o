@@ -1,6 +1,6 @@
 ---
 title: Does Institutional Linkage of Bank-MFI Foster Inclusive Financial Development
-  Even in the Presence of MFI Frauds
+  Even in the Presence of MFI Frauds?
 author: "Shirley J. Ho and Sushanta K. Mallick"
 date: "December, 2016"
 output:
@@ -27,7 +27,7 @@ The purpose of this study is to analyze the collusion decisions faced by MFIs an
 
 We demonstrate that banks are more likely to lend to borrowers whose projects have been partially funded by MFIs. We consider collusion behavior by the MFI, which will extract a share of the gains from strategic default from the borrower and thus reduce the borrower's gain from strategically defaulting on the bank's loan. However, our conclusions are robust to the relaxation of this assumption. Partial funding from the MFI reduces the amount borrowed from the banks and lowers the payoff from strategic default as long as it is assumed that the MFI can always prevent strategic default on the amount that it lends.
 
-Specifically, we consider a linkage between commercial bank and MFI. In an environment with asymmetric information on the borrower's effort cost, the commercial bank takes the loan made by MFI as a *collateral* or *endorsement*. So the MFI's lending decision will serve as a signal of the borrower's effort cost, with which the commercial bank can adjust its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems. Our contribution is to consider the possibility that the MFI can collude with the borrower, make a fictitious loan and then ask for a share of the extra loan from the bank. Our result shows that the bribe requested by the MFI will decrease the borrower's shirking benefit, which then increases the borrower's relative benefit of putting in full effort. Although the bank's lending threshold is unchanged, its posterior belief that the borrower may put in effort will increase (after observing the MFI's loan decision), and hence the probabilities of credit rationing and strategic default will both decrease. In other words, in addition to the function of screening borrower types which has been the main idea in the existing discussion on linkages, the MFI is able to monitor their efforts and extract rents from shirkers. Collusion between MFI and the borrower will reduce the borrower's benefit from shirking, and hence the screening function of linkage is reinforced when the possibility of collusion of this nature is considered.
+Specifically, we consider a linkage between commercial bank and MFI. In an environment with asymmetric information on the borrower's effort cost, the commercial bank takes the loan made by MFI as a $collateral$ or $endorsement$. So the MFI's lending decision will serve as a signal of the borrower's effort cost, with which the commercial bank can adjust its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems. Our contribution is to consider the possibility that the MFI can collude with the borrower, make a fictitious loan and then ask for a share of the extra loan from the bank. Our result shows that the bribe requested by the MFI will decrease the borrower's shirking benefit, which then increases the borrower's relative benefit of putting in full effort. Although the bank's lending threshold is unchanged, its posterior belief that the borrower may put in effort will increase (after observing the MFI's loan decision), and hence the probabilities of credit rationing and strategic default will both decrease. In other words, in addition to the function of screening borrower types which has been the main idea in the existing discussion on linkages, the MFI is able to monitor their efforts and extract rents from shirkers. Collusion between MFI and the borrower will reduce the borrower's benefit from shirking, and hence the screening function of linkage is reinforced when the possibility of collusion of this nature is considered.
 
 Many studies have addressed the impact of corruption in the credit market [@Jain2001; @Beck2006; @Barth2009], but only a few discuss the impact of corruption in a vertical hierarchy lending framework. @Hwang2007 consider corruption between borrower and auditor in a lending contract; a low-type firm can bribe the auditor to file an untruthful report about its true type so as to obtain a loan from the bank to finance a risky project. Their main finding is that, depending on the economic environment, the bank may or may not want to deter such a collusion in the lending contract. Our framework is different from theirs in the sense that the MFIs-bank linkage is self-interest motivated on the part of the MFI. There is no incentive rent required for MFI to take its role [@Fuentes1996; @Varghese2005], nor other policies such as subsidies are required. Since MFI's money is directly involved in this linkage, the lending decision of MFI is itself a trustable endorsement of the borrower's reputation and repayment capacity. Most importantly, collusion between MFI and the borrower will improve the benefit of this linkage.
 
@@ -41,7 +41,7 @@ In Section 'The Model', we describe a credit market with asymmetric information,
 
 We consider a credit market with asymmetric information. There are three players: commercial bank, MFI and a rural borrower. The rural borrower has a project which needs external funding L. MFI is different from commercial bank in two aspects: (1) MFI is local and knows better about the borrower, or has more weighing power than the borrower; (2) MFI is smaller in scale, so can only provide part of the required loan. The rate of return on the borrower's project is assumed to be stochastically determined by the borrower's effort, which is not observable by the commercial bank. The MFI, due to its advantage in location, knows better about the borrower's effort choice.
 
-Our contribution is to consider the possibility that the MFI can collude with the borrower, make a fictitious loan and then ask for a share of the extra loan from the bank. We will demonstrate that, introducing a linkage between MFI and the bank can mitigate the credit rationing and strategic default problems, even if we consider the possibility of collusion or frauds in MFI. The linkage between commercial bank and MFI takes the following form. In an environment with asymmetric information on the borrower's effort cost, the commercial bank takes the loan made by MFI as a *collateral* or *endorsement*. The MFI's lending decision will serve as a signal of the borrower's effort cost. The commercial bank then adjusts its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems.
+Our contribution is to consider the possibility that the MFI can collude with the borrower, make a fictitious loan and then ask for a share of the extra loan from the bank. We will demonstrate that, introducing a linkage between MFI and the bank can mitigate the credit rationing and strategic default problems, even if we consider the possibility of collusion or frauds in MFI. The linkage between commercial bank and MFI takes the following form. In an environment with asymmetric information on the borrower's effort cost, the commercial bank takes the loan made by MFI as a $collateral$ or $endorsement$. The MFI's lending decision will serve as a signal of the borrower's effort cost. The commercial bank then adjusts its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems.
 
 Throughout this paper, we characterize the Bayesian equilibria for the model. We analyze the bank's (and MFI) loan decisions and the borrower's effort decision first. Then we look for the range of parameters that support the collusion-free equilibria.
 
@@ -49,29 +49,111 @@ Throughout this paper, we characterize the Bayesian equilibria for the model. We
 
 We first demonstrate the existence of credit rationing and strategic default problems in a situation where there is no linkage between MFI and commercial bank. Later we show how a linkage between MFI and the bank can mitigate these problems, even if there is collusion between MFI and the borrower.
 
-Consider an indivisible project which needs an external funding of size $L$. The rate of return for this project is assumed to be uncertain and determined by the borrower's effort. Specifically, denote $e \epsilon \left \{ 0,e_{H} \right \}$ with $0 < e_{H}$, as the borrower's effort decision,^[The binary effort is assumed to simplify MFI's collusion decision. More general assumption of continuous effort only changes $£l$ from a constant to a distribution.] and $R$ as the project's rate of return, which is a function of the borrower's effort. If $e = 0$, then $R = 0$ for sure; If $e = e_{H}$, then the rate of return on the borrower's project follows a nondecreasing distribution $F\left ( e_{H}, R \right )$ over $\left ( - \infty ,\infty \right )$, with $f\left ( e,R \right )$ being the density function.
+Consider an indivisible project which needs an external funding of size $L$. The rate of return for this project is assumed to be uncertain and determined by the borrower's effort. Specifically, denote $e \in \left \{ 0,e_{H} \right \}$ with $0 < e_{H}$, as the borrower's effort decision,^[The binary effort is assumed to simplify MFI's collusion decision. More general assumption of continuous effort only changes $£l$ from a constant to a distribution.] and $R$ as the project's rate of return, which is a function of the borrower's effort. If $e = 0$, then $R = 0$ for sure; If $e = e_{H}$, then the rate of return on the borrower's project follows a nondecreasing distribution $F\left ( e_{H}, R \right )$ over $\left ( - \infty ,\infty \right )$, with $f\left ( e,R \right )$ being the density function.
 
 We assume that there is asymmetric information between commercial bank and the borrower. That is, let $ce$ be the borrower's effort cost. The bank cannot observe the marginal cost $c$, but has a belief that c follows a uniform distribution over $\left [ 0,\bar{c} \right ]$, with $\bar{c} > e_{H}$. Under incomplete information, the commercial bank needs to decide whether to give a loan $L$ to the borrower. If the borrower is given this loan, she needs to decide whether to put in full effort $e_{H}$ or not. After the effort decision, the project return realizes and becomes publicly known.
 
 ### Bank's loan decision
 
-The commercial bank will lend out **L** if the expected gain of lending is greater than the expected loss. That is, let $\rho$ with $0 < \rho  < 1$ denote the bank's belief that the borrower will put in full effort $e_{H}$. We will later explain how this belief is determined by the bank's belief on the borrower's marginal cost of effort and the borrower's effort decision. Denote $r^{c}$ as the prevailing competitive interest rate.^[Due to competition, commercial banks usually charge a competitive interest rate, which is part of the reason why the bank cannot offer a loan contract with properly designed interest rates to screen the borrowers.] The expected *gain* for lending $L$ is:
+The commercial bank will lend out **L** if the expected gain of lending is greater than the expected loss. That is, let $\rho$ with $0 < \rho  < 1$ denote the bank's belief that the borrower will put in full effort $e_{H}$. We will later explain how this belief is determined by the bank's belief on the borrower's marginal cost of effort and the borrower's effort decision. Denote $r^{c}$ as the prevailing competitive interest rate.^[Due to competition, commercial banks usually charge a competitive interest rate, which is part of the reason why the bank cannot offer a loan contract with properly designed interest rates to screen the borrowers.] The expected $gain$ for lending $L$ is:
 
 $$ \rho L [ \int_{1}^{\left ( 1 + r^{c} \right )} \left ( R-1 \right )f\left ( e_{H},R \right )dR + r^{c} \int_{1 + r^{c}}^{\infty } f\left ( e_{H}, R\right )dR  ]. $$
 
 The expected gain occurs only when the borrower puts in full effort, the probability of which is $\rho$. However, even if the full effort has been put in, the rate of return is uncertain, so there are only two possibilities to have positive payoff. First, when the rate of return is greater than $\left(1+r^{c}\right)$, the bank can receive the interest of $r^{c}$. The probability for $R  \geq \left(1+r^{c}\right)$ is $\int_{1+r^{c}}^{\infty } f\left ( e_{H},R \right )dR$, as in the second term of equation (1). Notice that this probability can be rewritten as $1 - F\left ( e_{H},1+r^{c} \right )$. Second, when the rate of return is not high enough for full repayment (i.e. $L + r^{c}L$), the bank will take whatever it can. That is, for $1 \leq  R < 1 + r^{c}$, the gain will be $(R - 1)L$.
 
-The expected *loss* for lending $L$ is:
+The expected $loss$ for lending $L$ is:
 
+$$ L\left \{ \left ( 1- \rho \right )+\rho [\int_{0}^{1}\left ( 1-R \right )f\left ( e_{H},R \right )dR+\int_{-\infty }^{0}f\left ( e_{H},R \right )dR] \right \} $$
 
+If no effort is put in, the bank will lose the whole loan $L$. However, even if full effort has been made (with probability $\rho$), when the rate of return is not enough to repay $L$ (i.e. for $0 < R < 1$), the commercial bank will take whatever positive and bear a loss of $\left ( 1-R \right )L$. The expected sum of this loss is contained in the second term of equation (2). Moreover, the last term indicates the situation when the project return drops below the debt obligation, that is, for $R < 0$, so the bank loses the entire loan $L$.
+
+For an arbitrary level of interest $r^{c}$, there exists a threshold level $\rho ^{*}$ where the expected gain is equal to the expected loss of lending. Notice that $\rho ^{*}$ is not related to $L$, as $L$ appears in both of the expected gain and loss. Since the difference of gain and loss is increasing in $\rho$, we can summarize the bank's loan decision as:
+
+$$ Lend \ out \ L, if \ \rho \geq \rho ^{*}, Do \ not \ lend, if \ \rho <  \rho ^{*}. $$
+
+Note that the expected gain is increasing in $r^{c}$, but the expected loss is not related to $r^{c}$. So $\rho ^{*}$ is decreasing in $r^{c}$, indicating that as the banking sector becomes more competitive, the interest rate becomes lower and the bank becomes less willing to give a loan.
+
+### Borrower's effort decision
+
+When given a loan $L$, the borrower trades off the benefit of putting in full effort and that of shirking. That is, for $e = e_{H}$, the borrower receives an expected payoff $u\left ( r^{c},e_{H},c \right )$, where
+
+$$ u\left ( r^{c},e_{H},c \right ) = [R-\left ( 1 + r^{c} \right )] L \int_{1+r^{c}}^{\infty } f \left ( e_{H},R \right )dR-ce $$
+
+On the other hand, the benefit of shirking is simply the loan $L$. Let $c ^{*}$ be the threshold value such that $u\left ( r^{c},e_{H},c \right ) = L$. Since math formula is decreasing in $c$, we can summarize the borrower's effort decision as:
+
+$$ Put \ in \ effort \ e_{H}, if \ c\leq c^{*}, No \ effort, if \ c > c^{*}. $$
+
+Since $u\left ( r^{c},e_{H},c \right )$ is decreasing in $r^{c}$, we know that $c^{*}$ is decreasing in $r^{c}$. For simplification, we assume that $c^{*} \in \left [ 0,\bar{c} \right ]$, for otherwise we need to discuss the extreme cases with $c^{*} < 0$ and  $c^{*}> \bar{c}$.
+
+### Credit rationing and strategic default
+
+$Credit \ rationing$ happens when a borrower's demand for credit is turned down even if this borrower is willing to repay at the prevailing interest rate [@Baltensperger1978]. $Strategic \ default$ happens when the borrower is given the loan, but she deliberately makes no effort and thus fails to repay the debt. We will characterize the probabilities of these two problems.
+
+Given that $c$ follows a uniform distribution over $\left [ 0,\bar{c} \right ]$, the bank believes that the probability that the borrower puts in full effort is the probability that $c < c^{*}$, that is, $\frac{c^{*}}{\bar{c}}$. Then according to equation (3), the bank will lend out if $\frac{c^{*}}{\bar{c}} \geq \rho ^{*}$; that is, when the threshold value for the bank's loan decision is smaller than the borrower's effort threshold. In this case, the probability of credit rationing is the probability when the borrower will put in effort (i.e. $c < c^{*}$), but the bank will not lend out (i.e. $\rho < \rho^{*}$), that is, $\rho^{*}/ \frac{c^{*}}{\bar{c}}$. The probability of strategic default is the probability when the bank will lend out (i.e. $\rho > \rho ^{*}$), but the borrower will shirk (i.e. $c > c^{*}$), that is, $\left ( 1-\frac{c^{*}}{\bar{c}} \right )/\left ( 1-\rho ^{*} \right )$. Figure 1 depicts the case with $\frac{c^{*}}{\bar{c}}\geq \rho ^{*}$ in unit interval, and Proposition 1 summarizes these results.
 
 ![Credit rationing and strategic default without a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]](figure1.png)
+
+$Proposition \ 1.$ Due to asymmetric information about effort cost, if the bank ever makes a loan to the borrower, credit rationing happens with a probability $\frac{\rho ^{*}\bar{c}}{c^{*}}$, and strategic default happens with a probability $\frac{\bar{c}-c^{*}}{\bar{c}\left ( 1-\rho^{*} \right )}$.
+
+Notice that in equilibrium the bank is able to calculate the borrower's default decision (as parameterized by $c^{*}$). But since the return is *uncertain* [as captured by $F(e_{H}, R)$], even if full effort has been put in, the project could end up being a disaster [which is captured by the second term of equation (2)]. Therefore, after considering this part, the bank's lending threshold (i.e. $\rho^{*}$) will not coincide with the borrower's shirking threshold (i.e. $c^{*}/\bar{c}$).
+
+Moreover, since the difference between the expected gain and expected loss is increasing in both $\rho$ and $r^{c}$, we know that $\rho^{*}$ is decreasing in $r^{c}$. Together with earlier result that $c^{*}$ is decreasing in $r^{c}$, we can calculate how the probabilities of credit rationing and strategic default change with the level of $r^{c}$.
+
+$Corollary \ 2.$ When the banking system becomes more competitive, there is a smaller chance of credit rationing, but a higher chance of strategic default.
+
+It is easy to check that if $\bar{c}$ is sufficiently high, then the probability of credit rationing will increase with $r^{c}$, and the probability of strategic default will decrease with $r^{c}$. Since the interest rate is determined in the banking sector, ceteris paribus, $r^{c}$ can vary with the degree of competition in the banking sector (see the Monti-Klein model in @Freixas1998 and empirical studies by @Neuberger1990). The interest rate on loan will decrease when the banking sector becomes more competitive. This corollary suggests that when the banking system becomes more competitive, there is a smaller chance of credit rationing, but higher chance of strategic default.
+
+In the next section, we examine how the linkage between MFI and the bank can reduce the information asymmetry between bank and borrower, which hence mitigates the credit rationing and strategic default problems. However, relying on MFI's information is not riskless, as there are growing reports of frauds in MFIs. Considering the possibility of collusion in MFIs, it is worrisome how much the bank's loan decision will be affected by the collusion between the borrower and MFI. Or reversely, can the bank's loan decision change the extent of collusion between MFI and the borrower? Our result shows that the possibility of collusion can improve the benefit of this linkage.
+
+### Linkage with MFI
+
+In this section, we consider a linkage between commercial bank and MFI. Although MFI is better informed of the borrower's effort cost, MFI is smaller in scale and thus cannot lend the whole loan. If the commercial bank can take the loan made by MFI as a $collateral$ or $endorsement$, then the MFI's lending decision will serve as a signal of the borrower's effort cost, with which the commercial bank can adjust its belief on the borrower's effort decision, thus mitigating the credit rationing and strategic default problems. However, relying on MFI's information is not riskless. We will consider the possibility of frauds in MFIs, and examine how the bank's loan decision will be affected by the collusion between the borrower and MFI.
+
+The basic assumptions on the project remain the same as in Section 'The Model'. That is, the project needs a loan of size $L$. The borrower's effort cost $c$ is not observable by the bank, and the bank believes that $c$ is uniformly distributed over $[0,\bar{c}]$. Even if the full effort is put in, the rate of return is uncertain and distributed according to $F(e_{H}, R)$.
+
+For this linkage to work, we assume that the better-informed MFI makes its lending decision first. Since MFI can make only a fraction $M$( < $L$) of the loan, it has to figure whether the bank is willing to fund the rest of loan amount, otherwise the project will not be completed. Moreover, MFI can also collude with the borrower, make a fictitious loan, and share the shirking benefit with the borrower. After observing MFI's loan decision, the bank decides whether to give the rest of loan amount, considering the possibility that the loan given by MFI can be false.
+
+The sequence of actions for this linkage is given as follows. First, the borrower asks for a partial loan $M$ from MFI. MFI has three choices: (1) not to lend out $M$; (2) to lend out and ask the borrower to work; (3) to lend out but ask the borrower to shirk and collude. If the borrower accepts the loan agreement, then in the second stage, she turns to the bank for the rest loan ($L - M$). Upon observing MFI's loan decision, the bank decides whether to give the rest loan. Third, if the full loan is given, the borrower makes her effort decision. If she shirks, MFI can observe and ask her to repay M. In addition, MFI could ask for a share of this extra benefit ($L - M$). For the ease of illustration, we describe the MFI's loan decision and the borrower's effort decision first, then we address the commercial bank's loan decision.
+
+### MFI's loan and bribe decisions
+
+Due to the advantage in location, MFI knows better about the borrower, and we assume that MFI can observe whether the borrower has put in effort or not. When the borrower approaches and asks for a partial loan $M$, there are three choices for the MFI. First, if MFI refuses to give the loan, its payoff is null. Second, if MFI gives the loan $M$, then the expected gain depends on whether the commercial bank will give the rest loan and whether the borrower will make the effort.
+
+Let $\beta$ denote the probability that the bank will lend the rest loan. Let $r^{m}$ with $r^{m}> r^{c}$ be the interest rate charged on the fraction of loan M.^[For $r^{m}< r^{c}$, the borrower still borrows as much as the upper limit (M), and the threshold for the borrowing decision (i.e. $\bar{c}^{L}$) will be changed accordingly.] Later in Section 'Related Evidence on Microfinance Activity', we will provide evidence for this assumption. Since MFI is assumed to be able to observe $\rho$, MFI's expected gain of lending $M$ if the borrower puts in effort is:
+
+$$ \beta M \left \{ \int_{1}^{1+r^{M}} \left ( R-1 \right )f\left ( e_{H},R \right )dR + r^{M}\int_{1+r^{M}}^{\infty}f\left ( e_{H},R \right )dR - \int_{0}^{1}\left ( 1-R \right ) f\left ( e_{H},R \right )dR - \int_{-\infty }^{0} f\left ( e_{H},R \right )dR\right \}. $$
+
+If the bank does not lend out, MFI will ask the borrower to return the partial loan $M$. Thus, the term (1 - $\beta$) does not appear in the above expected gain.
+
+On the other hand, when the borrower shirks, MFI can observe and ask the borrower to repay the partial loan $M$. Moreover, if MFI asks for a bribe, then we assume that MFI can get a proportion $\phi_{M}$ of ($L - M$),  and let ($1 - \phi_{M}$) denote the proportion for the borrower. The expected gain for this alternative is hence:
+
+$$\beta \phi_{M}\left ( L-M \right ).$$
+
+One possibility to solve $\phi_{M}$ is to find the Nash bargaining solution, where $\phi_{M}$ will be positively related to the relative bargaining power of MFI and the borrower (see @Basu1992; @Barth2009).
+
+Comparing the expected gains of the three choices, MFI is better off lending $M$ than not lending for $\beta \geq 0$. Next, let $\phi_{M}^{*}$ be the threshold where MFI is indifferent between asking the borrower to proceed with the project and shirking and colluding. MFI will lend out the partial loan and ask the borrower to work if $\phi_{M}\leq \phi_{M}^{*}$.
+
+$Lemma \ 3.$ $\phi_{M}^{*}$ is increasing in $r^{M}$, $M$ and the borrower's effort efficiency, but not related to $\beta$.
+
+$Proof.$ First, since the expected gain in equation (4) is increasing in $r^{M}$, $\phi_{M}\left ( r^{M} \right )$ is increasing in $r^{M}$. Second, since the expected gain in equation (4) is increasing in $M$, but ($L - M$) in equation (5) is decreasing in $M$, so $\phi_{M}^{*}$ is increasing in $M$. Finally, consider another distribution $F'\left ( e_{H},R \right )$, which first-order stochastically dominates $F\left ( e_{H},R \right )$. The expected gain in (4) is higher with $F'\left ( e_{H},R \right )$, and hence $\phi_{M}^{*}$ is higher.
+
 
 ![Borrower's decisions with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]](figure2.png)
 
 ![Credit rationing and strategic default with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]](figure3.png)
 
 ![Self-help group bank-linkage program in India. [Colour figure can be viewed at wileyonlinelibrary.com]. Source: NABARD (compiled from RBI Handbook of Statistics on the Indian Economy). Notes: Data during the year relate to Commercial Banks, RRBs and Co-operative Banks.](figure4.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
