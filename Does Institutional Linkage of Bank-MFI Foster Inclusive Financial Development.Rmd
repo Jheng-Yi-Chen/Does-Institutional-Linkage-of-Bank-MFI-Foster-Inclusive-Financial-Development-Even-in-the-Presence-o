@@ -159,12 +159,65 @@ On the other hand, in the case of shirking, MFI can observe it and ask the borro
 
 $$\left ( 1-\phi _{M}^{*} \right )\left ( L-M \right ).$$
 
-
-
+We can parameterize the borrower's decisions as follows. Let $\bar{c}^{L}$ denote the threshold for the borrower to be indifferent between putting in full effort [equation (7)] and not accepting the loan (i.e. 0). Likewise, let $c^{*L}$ denote the threshold for the borrower to be indifferent between putting in full effort [equation (7)] and shirking and sharing the benefit with MFI [equation (8)]. Notice that we add in a superscript $L$ to denote the thresholds with a linkage. Next, since the expected payoff is decreasing in $c$, we have $c^{*L}< \bar{c}^{L}$. Figure 2 illustrates the parameter ranges for the borrower's decisions.
 
 ![Borrower's decisions with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]](figure2.png)
 
+If $\bar{c}^{L}\leq \bar{c}$, then the bank can benefit from the linkage with MFI, even under the possibility of collusion between MFI and the borrower. However, if $\bar{c}^{L} \bar{c}$, then since $\bar{c}$ is the upper bound for the bank's belief, the following result still applies.
+
+$Proposition \ 4.$ Even with a possibility of collusion between MFI and the borrower, the probability that the borrower puts in full effort will increase when there is a linkage between MFI and bank.
+
+$Proof.$ If $r^{m}$ is not too higher than $r^{c}$, then since $L> \left ( 1-\phi _{M}^{*} \right )\left ( L-M \right )$ and the expected payoff is decreasing in $c$, $c^{*L}$ will be higher than the threshold value $c^{*}$ in the case without a linkage. If $\bar{c}^{L}\leq \bar{c}$, then the probability that the borrower puts in full effort is $\frac{c^{*}}{\bar{c}}$ without a linkage, and the probability with a linkage is at least $\frac{c^{*L}}{\bar{c}}$. Since $\frac{c^{*}}{\bar{c}}< \frac{c^{*L}}{\bar{c}}$, we have the conclusion.
+
+When there is a linkage between MFI and bank, the borrower's shirking benefit shrinks because MFI can observe her shirking and ask her to repay $M$. Moreover, MFI will ask for a share of the extra loan ($L ??? M$). Relatively, the benefit of putting in effort becomes higher, thus tolerating a higher level of effort cost. Notice that since the borrower has to pay MFI part of loan (i.e. $M$) for bribery, the borrower will become less willing to borrow compared to the no collusion case. Therefore, we have a threshold value $c^{*L}< \bar{c}^{L}$ in Figure 2.
+
+$Corollary \ 5.$ $c^{*L}$ increases with $\phi_{M}^{*}$.
+
+$Proof.$ Notice that the least share of shirking benefit $\left ( 1-\phi _{M}^{*} \right )\left ( L-M \right )$ is decreasing in $\phi _{M}^{*}$. Since the expected gain is decreasing in $c$, $c^{*L}$ increases with $\phi _{M}^{*}$.
+
+We will later refer to $\phi _{M}^{*}$ as the impact of collusion between MFI and the borrower. As MFI asks for more from the shirking benefit, the borrower will find it relatively better off working.
+
+### Bank's loan decision
+
+The commercial bank's lending decision is similar to that in Section 'The Model', except now that the borrower asks for a partial loan ($L - M$), instead of the full loan $L$. As we will demonstrate, the bank's decision is not related to the size of loan.
+
+Let $\rho$, with $0 < \rho < 1$, denote the bank's belief that the borrower will put in full effort $e_{H}$. Denote $r^{c}$ as the prevailing competitive interest rate. The expected $gain$ for lending ($L - M$) is:
+
+$$\rho \left ( L-M \right )\left [ \int_{1}^{\left ( 1+r^{c} \right )} \left ( R-1 \right )f\left ( e_{H},R \right )dR+r^{c}\int_{\left ( 1+r^{c} \right )}^{\infty } f\left ( e_{H},R \right )dR  \right ].$$
+
+The expected gain occurs only when the borrower puts in full effort, the probability of which is assumed to be $\rho$. Then for $R \geq  (1 + r^{c})$, the bank can get the full repayment (i.e. $(L - M) + r^{c}(L - M)$); for $0 \leq  R < 1 + r^{c}$, the bank will take whatever it can and the gain will be $(R - 1)(L - M)$.
+
+The expected loss^[In the case of nonstrategic default, the lenders split the project's return in the same proportion as the share of their contribution to the project. A more practical settlement will involve all lenders bargaining for the shares. In this case, their contributions (i.e. $M$ and $L ??? M$) will serve as a threat point, and in the case of constant return, the solution will be the same as our assumption.] for lending $(L - M)$ is:
+
+$$\left ( L-M \right )\left \{ \left ( 1-\rho  \right )+\rho \left [ \int_{0}^{1}\left ( 1-R \right )f\left ( e_{H},R \right )dR+\int_{-\infty }^{0}f\left ( e_{H},R \right )dR \right ] \right \}$$
+
+For an arbitrary level of interest $r^{c}$, there exists a threshold for the expected gain to be equal to the expected loss of lending. Since $(L ??? M)$ appears in both expected gain and loss, this threshold will be the same as $\rho^{*}$ from Section 'The Model'. Thus, the bank's loan decision can be parameterized as equation (3).
+
+### Benefits of linkage under collusion
+
+With a linkage with MFI, the bank can improve its information related to the borrower's effort cost and effort decision, through observing MFI's loan decision. First, as described earlier, since the borrower's shirking benefit is smaller within a linkage, the threshold for putting in effort $c^{*L}$ is greater than $c^{*}$.
+
+Next, if $\bar{c}^{L}\leq \bar{c}$, the bank anticipates the probability that borrower will put in effort within a linkage is $\frac{c^{*L}}{c\left ( \geq \frac{c^{*L}}{c} \right )}$. This is higher than the probability without a linkage $\frac{c^{*}}{\bar{c}}$. Given that the bank's threshold $\rho^{*}$ for lending is the same for with and without a linkage, there is a higher probability that the partial loan is accepted by the bank. Altogether, we have $\frac{c^{*}}{\bar{c}}< \frac{c^{*L}}{\bar{c}^{L}}$.
+
+Figure 3 depicts the bank's loan decision and the borrower's effort decision with and without a linkage for $\bar{c}^{L}\leq \bar{c}$.
+
 ![Credit rationing and strategic default with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]](figure3.png)
+
+$Lemma \ 6.$ Even with a possibility of collusion between MFI and the borrower, the probability that the bank lends out is higher when there is a linkage with MFI.
+
+$Proof.$ Since $\frac{c^{*}}{\bar{c}}< \frac{c^{*L}}{\bar{c}^{L}}$, the chance when $\rho^{*} < \frac{c^{*L}}{\bar{c}^{L}}$ is higher than the chance when $\rho^{*} < \frac{c^{*}}{\bar{c}}$.
+
+When there is a linkage with MFI, the borrower's shirking benefit becomes smaller and hence there is higher chance to put in full effort. Although the bank is not informed of the effort cost $c$, its belief that the borrower will put in effort increases, so the chance that the bank will lend out will increase, despite that the threshold $£l^{*}$ is not related to the loan size.
+
+$Proposition \ 7.$ Even with a possibility of collusion between MFI and the borrower, when there is a linkage between MFI and the bank, both the probabilities of credit rationing and strategic default decrease.
+
+$Proof.$ The probability of credit rationing is $\rho ^{*} / \frac{c^{*L}}{\bar{c}^{L}}$ with a linkage, which is smaller than $\rho ^{*} / \frac{c^{*}}{\bar{c}}$ without a linkage. Similarly, the probability of strategic default $\left ( 1- \frac{c^{*L}}{\bar{c}^{L}} \right )/\left ( 1-\rho ^{*} \right )$ is smaller than that without a linkage.
+
+$Proposition \ 8.$ A linkage with the MFI benefits more in a less competitive banking sector.
+
+
+
+
 
 ![Self-help group bank-linkage program in India. [Colour figure can be viewed at wileyonlinelibrary.com]. Source: NABARD (compiled from RBI Handbook of Statistics on the Indian Economy). Notes: Data during the year relate to Commercial Banks, RRBs and Co-operative Banks.](figure4.png)
 
