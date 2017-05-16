@@ -137,6 +137,30 @@ $Lemma \ 3.$ $\phi_{M}^{*}$ is increasing in $r^{M}$, $M$ and the borrower's eff
 
 $Proof.$ First, since the expected gain in equation (4) is increasing in $r^{M}$, $\phi_{M}\left ( r^{M} \right )$ is increasing in $r^{M}$. Second, since the expected gain in equation (4) is increasing in $M$, but ($L - M$) in equation (5) is decreasing in $M$, so $\phi_{M}^{*}$ is increasing in $M$. Finally, consider another distribution $F'\left ( e_{H},R \right )$, which first-order stochastically dominates $F\left ( e_{H},R \right )$. The expected gain in (4) is higher with $F'\left ( e_{H},R \right )$, and hence $\phi_{M}^{*}$ is higher.
 
+Due to the advantage in location, the borrower's effort decision is observable by MFI. So, if the bank does not lend out the rest loan, or if the borrower shirks, MFI can always ask the borrower to repay the partial loan $M$. Hence, the key for MFI's loan decision is the amount of collusion benefit, and $\phi_{M}^{*}$ is the largest share of collusion benefit that the borrower can offer to MFI. Since we are interested in equilibria where the borrower's effort decision is consistent with MFI's lending decision, we will focus on the cases with $\phi_{M}\leq \phi_{M}^{*}$.
+
+Moreover, we have assumed that MFI can observe $e$, because relatively MFI knows better about the borrower than the bank. If the observation is limited, the easiest way is to assume a proportion (say, $\rho$) that MFI can observe $e$. Then we multiply the benefit in equation (4) by $\rho$, and multiply the benefit in equation (5) by ($1-p$). In this case, the threshold $\phi_{M}^{*}$ will be the benefit share where the two expected benefits are equal. Then depending on the relative size of p, the threshold will be greater [when $p/(1 - p) > 1$] or smaller [when $p/(1 - p) < 1$] than the complete observation case.
+
+Similarly, the easiest way to incorporate incomplete enforcement into our model is to assume that there is a probability (say $\rho'$) of retrieving the benefit for shirking. Then equation (5) becomes: $\rho'\beta\phi_{M}(L - M) - (1 - \rho')M$, where the second term indicates that if the borrower shirks and runs, then MFI will lose M. Then, depending on the relative size of $\rho'$, the threshold $\phi_{M}^{*}$ will be greater or smaller than the complete observation case. In other words, our framework is capable to deal with both limited observation (on effort) and the incomplete enforcement.
+
+### The borrower's borrowing and effort decision
+
+The borrower needs to accept the loan agreement with MFI first. Then, once given the full amount of loan from the bank, she needs to decide whether to put in effort or collude with MFI.
+
+First, if the borrower does not accept MFI's loan agreement, her payoff will be null. Next, if the borrower is given the full amount of loan $L$ (i.e. $\beta$ = 1), she needs to trade off the benefit of putting in full effort and that of shirking and sharing the collusion benefit with MFI. That is, if $e = e_{H}$, the borrower receives an expected payoff:
+
+$$ \left \{ RL-\left ( 1+r^{c} \right )\left ( L-M \right ) \right \}\int_{1+r^{c}}^{\infty }f\left ( e_{H},R \right )dR - \left ( 1+r^{m} \right )M\int_{1+r^{m}}^{\infty }f\left ( e_{H},R \right )dR-ce. $$
+
+The borrower receives a return after loan repayment when $R > (1 + r^{c})$ for the partial loan ($L - M$), and when $R > (1 + r^{m})$ for the partial loan $M$. Alternatively, we can rewrite this gain as
+
+$$\left [ R-\left ( 1+r^{c} \right ) \right ]L\int_{1+r^{c}}^{\infty }f\left ( e_{H},R \right )dR-ce+M\left \{ \left ( 1+r^{c} \right )\left [ 1-F\left ( e_{H},\left ( 1+r^{c} \right ) \right ) \right ]-\left ( 1+r^{m} \right ) \left [ 1-F\left ( e_{H}, \left ( 1+r^{m} \right )\right ) \right ] \right \}$$
+
+On the other hand, in the case of shirking, MFI can observe it and ask the borrower to repay the partial loan $M$. In addition, MFI may ask for a share of the extra benefit from shirking. That is, the borrower's least benefit of shirking (for her decision to be consistent with MFI's loan decision) is:
+
+$$\left ( 1-\phi _{M}^{*} \right )\left ( L-M \right ).$$
+
+
+
 
 ![Borrower's decisions with a linkage. [Colour figure can be viewed at wileyonlinelibrary.com]](figure2.png)
 
