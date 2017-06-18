@@ -10,4 +10,4 @@ Bibliographies and Citations: http://rmarkdown.rstudio.com/authoring_bibliograph
 
 Footnotes: http://rmarkdown.rstudio.com/authoring_pandoc_markdown.html#footnotes
 
-R Markdown 入門：http://map-testing.blogspot.tw/2016/08/rstudio-markdown.html
+Introduction to R Markdown：http://map-testing.blogspot.tw/2016/08/rstudio-markdown.html
